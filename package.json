@@ -1,0 +1,11 @@
+{
+  "name": "yt-algorithm-docu",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "render": "remotion render src/index.js MainVideo out.mp4 --codec=h264"
+  },
+  "dependencies": {
+    "remotion": "4.0.412"
+  }
+}
