@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "render": "npx remotion render src/index.js MainVideo out.mp4 --codec=h264"
+    "render": "node ./node_modules/@remotion/cli/bin/remotion.js render src/index.js MainVideo out.mp4 --codec=h264"
   },
   "dependencies": {
     "remotion": "4.0.412",
